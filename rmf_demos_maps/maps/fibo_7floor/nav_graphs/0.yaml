@@ -1,0 +1,107 @@
+building_name: fibo_7floor
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - {speed_limit: 0}
+    - - 1
+      - 0
+      - {speed_limit: 0}
+    - - 1
+      - 2
+      - {speed_limit: 0}
+    - - 2
+      - 1
+      - {speed_limit: 0}
+    - - 1
+      - 3
+      - {speed_limit: 0}
+    - - 3
+      - 1
+      - {speed_limit: 0}
+    - - 0
+      - 4
+      - {speed_limit: 0}
+    - - 4
+      - 0
+      - {speed_limit: 0}
+    - - 4
+      - 5
+      - {speed_limit: 0}
+    - - 5
+      - 4
+      - {speed_limit: 0}
+    - - 4
+      - 6
+      - {speed_limit: 0}
+    - - 6
+      - 4
+      - {speed_limit: 0}
+    - - 7
+      - 8
+      - {speed_limit: 0}
+    - - 8
+      - 7
+      - {speed_limit: 0}
+    - - 9
+      - 10
+      - {speed_limit: 0}
+    - - 10
+      - 9
+      - {speed_limit: 0}
+    - - 11
+      - 8
+      - {speed_limit: 0}
+    - - 8
+      - 11
+      - {speed_limit: 0}
+    - - 8
+      - 10
+      - {speed_limit: 0}
+    - - 10
+      - 8
+      - {speed_limit: 0}
+    - - 10
+      - 0
+      - {door_name: start, speed_limit: 0}
+    - - 0
+      - 10
+      - {door_name: start, speed_limit: 0}
+    vertices:
+    - - 14.520500344568463
+      - -14.629827371841447
+      - {is_parking_spot: false, name: front_door}
+    - - 14.781334851201661
+      - -21.44440284346004
+      - {name: ''}
+    - - 9.31380735327372
+      - -21.657871215049784
+      - {is_parking_spot: true, name: showing_point}
+    - - 14.846556843022219
+      - -26.33525032026638
+      - {is_parking_spot: true, name: front_windows}
+    - - 14.445227750729654
+      - -8.567069007577366
+      - {name: ''}
+    - - 49.341078340040376
+      - -8.772892506355356
+      - {name: ''}
+    - - 14.176534528688572
+      - -3.1938460945440688
+      - {is_parking_spot: true, name: front_toilet}
+    - - 30.990603638081275
+      - -12.965918131330758
+      - {is_parking_spot: true, name: park2, spawn_robot_name: tinyRobot2, spawn_robot_type: TinyRobot}
+    - - 30.98696831394701
+      - -14.632928089485375
+      - {name: ''}
+    - - 26.772130744166045
+      - -12.949879936620786
+      - {is_parking_spot: true, name: park1, spawn_robot_name: tinyRobot1, spawn_robot_type: TinyRobot}
+    - - 26.74149779227
+      - -14.641481793330696
+      - {name: ''}
+    - - 42.00665151722252
+      - -14.632553864942142
+      - {name: ''}
