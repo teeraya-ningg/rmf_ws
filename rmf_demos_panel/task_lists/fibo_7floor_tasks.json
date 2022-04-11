@@ -1,0 +1,4 @@
+[
+{"task_type":"Loop", "start_time":0, "priority":0, "description": {"num_loops":1, "start_name":"park1", "finish_name":"front_door"}},
+{"task_type":"Loop", "start_time":0, "priority":0, "description": {"num_loops":1, "start_name":"park2", "finish_name":"showing_point"}}
+]

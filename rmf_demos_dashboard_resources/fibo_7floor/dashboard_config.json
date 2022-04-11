@@ -1,0 +1,22 @@
+{
+  "world_name" : "fibo_7floor World",  
+  "valid_task": ["Loop"],
+  "task": {},
+    "Loop": {
+      "places": [
+        "park1",
+        "park2",
+        "showing_point",
+        "front_door"
+      ]
+    },
+    "Clean": {
+    },
+    "Station": {
+    },
+    "Patrol": {
+    },
+    "Charging": {
+    }
+}
+
